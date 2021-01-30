@@ -4,6 +4,9 @@
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/Intro.png)
 ### This is the online repository which I keep notes while studying the [OSCP(pirated) PWK 2.0]
 
+## Contents
+![alt text](https://img.shields.io/badge/Git%20Commands-Jump%20to%20section-red)
+
 ## 0.0 Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
 
