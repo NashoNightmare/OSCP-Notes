@@ -5,7 +5,7 @@
 ### This is the online repository which I keep notes while studying the [OSCP(pirated) PWK 2.0]
 
 ## Contents
-![alt text](https://img.shields.io/badge/Git%20Commands-Jump%20to%20section-red)
+[![alt text](https://img.shields.io/badge/Git%20Commands-Jump%20to%20section-red)](https://www.google.com)
 
 ## 0.0 Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
