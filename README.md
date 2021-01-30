@@ -80,23 +80,23 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 A pattern which describes a certain amount of text.
 
 - **Metacharacters** [Those characters should used with escape characters when it is used as a literal.]
-> `\` `^` `$` `.` `|` `?` `*` `+` `(` `)` `[` `]` `{` `}`
+	> `\` `^` `$` `.` `|` `?` `*` `+` `(` `)` `[` `]` `{` `}`
 
-All other characters(non-meta) should not escaped with backslash. Because it may create regex token with specific meaning.
-> `'` `"` - Not metacharacters
+	All other characters(non-meta) should not escaped with backslash. Because it may create regex token with specific meaning.
+	> `'` `"` - Not metacharacters
 
-To use regex in programming language string such as C:\temp
-> Regex : `C:\\\\temp`
+	To use regex in programming language string such as C:\temp
+	> Regex : `C:\\\\temp`
 
-**Non printable character tokens**
-> `\t`-Tab, `\r`-Return, `\n`-NewLine, `\a`-Bell, `\e`-Escape, `\f`-FormFeed, `\r\n`-WindowsTextNewLine, `\R`-LineBreak(UnicodeIncluded)
+- **Non printable character tokens**
+	> `\t`-Tab, `\r`-Return, `\n`-NewLine, `\a`-Bell, `\e`-Escape, `\f`-FormFeed, `\r\n`-WindowsTextNewLine, `\R`-LineBreak(UnicodeIncluded)
 
-**Character classes**
-> `[ ]` - To define a character class (Matches only for one character by default, Use quantifier for more options)
+- **Character classes**
+	> `[ ]` - To define a character class (Matches only for one character by default, Use quantifier for more options)
 
-> `[^]` - Negated character class
+	> `[^]` - Negated character class
 
-Only `]`  `\` `^` are metacharacters in a character class. To match these use backslash.
+	Only `]`  `\` `^` are metacharacters in a character class. To match these use backslash.
 
 For more about character classes : [Character classes](http://www.regular-expressions.info/charclass.html)
 
