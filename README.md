@@ -23,7 +23,7 @@
 
 Man pages contain not only information about user commands, but also documentation regarding system administration commands, programming interfaces, and more.
 
-![alt text](url_sectionss)
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/sections-man.png)
 
 To perform a keyword search.
 > man -k passwd
