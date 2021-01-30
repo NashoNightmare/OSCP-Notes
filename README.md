@@ -8,3 +8,5 @@
 > `git commit` - Commit all staged files to versioned history.
 
 > `git push` - Push local changes to the origin.
+
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/Intro.png)
