@@ -77,6 +77,11 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 > `$ env` - To view all environment variables
 
 ### 3.3 RegEx
+A pattern which describes a certain amount of text.
+
+Metacharacters [Those characters should used with escape characters when it is used as a literal.]
+> `\``^``$``.``|``?``*``+``(``)``[``]``{``}`
+
 Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
 
 Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info)
