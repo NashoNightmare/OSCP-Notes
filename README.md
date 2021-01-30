@@ -79,7 +79,7 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 ### 3.3 RegEx
 A pattern which describes a certain amount of text.
 
-**Metacharacters** [Those characters should used with escape characters when it is used as a literal.]
+**- Metacharacters** [Those characters should used with escape characters when it is used as a literal.]
 > `\` `^` `$` `.` `|` `?` `*` `+` `(` `)` `[` `]` `{` `}`
 
 All other characters(non-meta) should not escaped with backslash. Because it may create regex token with specific meaning.
