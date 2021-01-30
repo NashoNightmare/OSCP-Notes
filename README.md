@@ -58,4 +58,15 @@ Service names for SSH:`ssh` , HTTP:`apache2`
 Default index.html location: `/var/www/html`
 
 ## 3.0 Bash Environment
+When opening a new terminal window, a new Bash process, which has its own **Environment variables**, is initialized. One of the most commonly-referenced environment variable is **PATH (Colon seperated directory paths that bash will search through whenever a command is run without a full path.** 
 
+To view the contents of a environment variable :
+> `$ echo $PATH` - To view the contents of a given environment variable.
+
+Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process id of the current shell
+
+> `$ export <name>=<value>` - To define a environment variable. NB: *If we do not use `export` to define the variable the variable will be limited to the current shell.
+
+
+
+ 
