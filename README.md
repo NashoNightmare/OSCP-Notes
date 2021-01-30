@@ -69,6 +69,10 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 
 > `$ env` - To view all environment variables
 
+### 3.3 RegEx
+Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
+Reference: [http://www.regular-expressions.info](http://www.regular-expressions.info)
+
 
 
  
