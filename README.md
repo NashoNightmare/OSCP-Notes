@@ -13,6 +13,7 @@
 
 > `![alter text](http:\\url-to-the-image\image)` - To add an image to a specific location in a file.
 
+> `git config credential.helper store` -> `git push` -> Add the credentials - To avoid loging everytime push the local to origin. 
 
 ## 2.0 Linux in a nutshell cheatsheet.
 
