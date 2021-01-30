@@ -106,4 +106,17 @@ Reference(NB:This resource is very good): [http://www.regular-expressions.info](
 
 Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars) 
 
- 
+### Text-Fu
+- **Grep** (Searches text files for the occurence given regex and outputs any line containing a match to stdout)
+> `grep <regex>` - Use `-r` for recursive and `-i` for case ignorance.
+
+- **Sed** (Powerful text stream editor)
+> `sed`
+
+- **Cut** (Used to extract a section from a line - But only support single character delimiter)
+> `cut -f <field_number> -d "<delimiter used to seperate fields>"`
+
+- **Awk** (Programming language designed for text processing)
+> `awk -F "<delimiter>" '{print $<number of seperated item>}'
+
+
