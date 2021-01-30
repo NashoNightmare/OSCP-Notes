@@ -18,4 +18,15 @@
 
 ### Linux Filesystem Hierarchy 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/file_hierarchy_linux.png)
+### Man pages
+> $ man ls
 
+Man pages contain not only information about user commands, but also documentation regarding system administration commands, programming interfaces, and more.
+
+![alt text](url_sectionss)
+
+To perform a keyword search.
+> man -k passwd
+
+Another way to perform keyword searches through the man pages.
+> apropos partition 
