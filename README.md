@@ -91,6 +91,13 @@ To use regex in programming language string such as C:\temp
 Non printable character tokens
 > `\t`-Tab, `\r`-Return, `\n`-NewLine, `\a`-Bell, `\e`-Escape, `\f`-FormFeed, `\r\n`-WindowsTextNewLine, `\R`-LineBreak(UnicodeIncluded)
 
+Character classes
+> `[ ]` - To define a character class (Matches only for one character by default, Use quantifier for more options)
+
+> `[^]` - Negated character class
+
+Only `]`  `\` `^` are metacharacters in a character class. To match these use backslash.
+
 Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
 
 Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info)
