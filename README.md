@@ -91,10 +91,10 @@ To use regex in programming language string such as C:\temp
 Non printable character tokens
 > `\t`-Tab, `\r`-Return, `\n`-NewLine, `\a`-Bell, `\e`-Escape, `\f`-FormFeed, `\r\n`-WindowsTextNewLine, `\R`-LineBreak(UnicodeIncluded)
 
-**Reference: [http://www.rexegg.com/](http://www.rexegg.com/**)
+**Reference: [http://www.rexegg.com/](http://www.rexegg.com/) **
 
-**Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info**)
+**Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info) **
 
-**Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars)** 
+**Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars) ** 
 
  
