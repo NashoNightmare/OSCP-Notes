@@ -16,3 +16,6 @@
 
 ## 2.0 Linux in a nutshell cheatsheet.
 
+### Linux Filesystem Hierarchy 
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/file_hierarchy_linux.png)
+
