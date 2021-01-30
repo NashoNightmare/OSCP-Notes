@@ -16,9 +16,9 @@
 
 ## 2.0 Linux in a nutshell cheatsheet.
 
-### Linux Filesystem Hierarchy 
+### 2.1 Linux Filesystem Hierarchy 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/file_hierarchy_linux.png)
-### Man pages
+### 2.2 Man pages
 > $ man ls
 
 Man pages contain not only information about user commands, but also documentation regarding system administration commands, programming interfaces, and more.
@@ -30,3 +30,16 @@ To perform a keyword search.
 
 Another way to perform keyword searches through the man pages.
 > apropos partition 
+
+### 2.3 Locating files 
+> `locate <file_name or directory>` - Quickest way to find files.
+
+> `which <file_name or directory>` - Returns pathnames of files or links which would execute in current environment. (By PATH variable)
+
+> `find / -name <file>` 
+
+> `find / -name <file> -type d` - Directory search
+
+> `find / -name <file> -type f` - File search
+
+### 2.4 Linux Services
