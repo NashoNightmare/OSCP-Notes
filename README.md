@@ -4,7 +4,7 @@
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/Intro.png)
 ### This is the online repository which I keep notes while studying the [OSCP(pirated) PWK 2.0]
 
-## **0.0 Git commands cheatsheet for reference.**
+## 0.0 Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
 
 > `git commit` - Commit all staged files to versioned history.
@@ -15,7 +15,7 @@
 
 > `git config credential.helper store` -> `git push` -> Add the credentials - To avoid loging everytime push the local to origin. 
 
-## **2.0 Linux in a nutshell cheatsheet. **
+## 2.0 Linux in a nutshell cheatsheet.
 
 ### 2.1 Linux Filesystem Hierarchy 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/file_hierarchy_linux.png)
