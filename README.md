@@ -44,3 +44,18 @@ Another way to perform keyword searches through the man pages.
 > `find / -name <file> -type f` - File search
 
 ### 2.4 Linux Services
+Start/Stop a Service
+> `$ sudo systemctl start/stop/enable/disable <service_name>` or `$ sudo service <service_name> start/stop`
+
+Check if a service is running
+> `$ netstat -tunap | grep <service_name>` or `$ ss -antlp | grep <service_name>`
+
+To see available service table
+> `$ systemctl list-unit-files`
+
+Notes:
+Service names for SSH:`ssh` , HTTP:`apache2`
+Default index.html location: `/var/www/html`
+
+## 3.0 Bash Environment
+
