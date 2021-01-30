@@ -4,5 +4,7 @@
 
 ## Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
+
 > `git commit` - Commit all staged files to versioned history.
+
 > `git push` - Push local changes to the origin.
