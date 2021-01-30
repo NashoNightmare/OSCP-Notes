@@ -4,10 +4,6 @@
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/Intro.png)
 ### This is the online repository which I keep notes while studying the [OSCP(pirated) PWK 2.0]
 
-## Contents
-![0.0 Git commands](https://github.com/NashoNightmare/OSCP-Notes#00-git-commands-cheatsheet-for-reference)
-![2.0 Linux nutshell](https://github.com/NashoNightmare/OSCP-Notes#20-linux-in-a-nutshell-cheatsheet)
-
 ## 0.0 Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
 
