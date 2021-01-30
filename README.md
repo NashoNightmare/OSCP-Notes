@@ -67,6 +67,8 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 
 > `$ export <name>=<value>` - To define a environment variable. NB: *If we do not use `export` to define the variable the variable will be limited to the current shell.
 
+> `$ env` - To view all environment variables
+
 
 
  
