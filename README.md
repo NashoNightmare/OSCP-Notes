@@ -82,6 +82,15 @@ A pattern which describes a certain amount of text.
 Metacharacters [Those characters should used with escape characters when it is used as a literal.]
 > `\` `^` `$` `.` `|` `?` `*` `+` `(` `)` `[` `]` `{` `}`
 
+All other characters(non-meta) should not escaped with backslash. Because it may create regex token with specific meaning.
+> `'` `"` - Not metacharacters
+
+To use regex in programming language string such as C:\temp
+> Regex : `C:\\\\temp`
+
+Non printable character tokens
+> `\t`-Tab, `\r`-Return, `\n`-NewLine, `\a`-Bell, `\e`-Escape, `\f`-FormFeed, `\r\n`-WindowsTextNewLine, `\R`-LineBreak(UnicodeIncluded)
+
 Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
 
 Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info)
