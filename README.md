@@ -106,7 +106,7 @@ Reference(NB:This resource is very good): [http://www.regular-expressions.info](
 
 Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars) 
 
-### Text-Fu
+### Text-Fu - Tools
 - **Grep** (Searches text files for the occurence given regex and outputs any line containing a match to stdout)
 > `grep <regex>` - Use `-r` for recursive and `-i` for case ignorance.
 
@@ -117,6 +117,6 @@ Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars
 > `cut -f <field_number> -d "<delimiter used to seperate fields>"`
 
 - **Awk** (Programming language designed for text processing)
-> `awk -F "<delimiter>" '{print $<number of seperated item>}'
+> `awk -F "<delimiter>" '{print $<number of seperated item>}'`
 
 
