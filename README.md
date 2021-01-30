@@ -11,4 +11,8 @@
 
 > `git push` - Push local changes to the origin.
 
+> `![alter text](http:\\url-to-the-image\image)` - To add an image to a specific location in a file.
+
+
+## 2.0 Linux in a nutshell cheatsheet.
 
