@@ -97,6 +97,7 @@ Character classes
 > `[^]` - Negated character class
 
 Only `]`  `\` `^` are metacharacters in a character class. To match these use backslash.
+
 For more about character classes : [Character classes](http://www.regular-expressions.info/charclass.html)
 
 Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
