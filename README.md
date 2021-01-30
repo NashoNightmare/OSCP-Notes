@@ -71,7 +71,8 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 
 ### 3.3 RegEx
 Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
-Reference: [http://www.regular-expressions.info](http://www.regular-expressions.info)
+
+Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info)
 
 
 
