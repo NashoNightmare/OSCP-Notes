@@ -80,7 +80,7 @@ Some other useful environment variables : `USER` , `PWD` , `HOME` , `$`-Process 
 A pattern which describes a certain amount of text.
 
 Metacharacters [Those characters should used with escape characters when it is used as a literal.]
-> `\``^``$``.``|``?``*``+``(``)``[``]``{``}`
+> `\` `^` `$` `.` `|` `?` `*` `+` `(` `)` `[` `]` `{` `}`
 
 Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
 
