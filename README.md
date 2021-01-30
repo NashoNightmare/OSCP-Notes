@@ -74,6 +74,6 @@ Reference: [http://www.rexegg.com/](http://www.rexegg.com/)
 
 Reference(NB:This resource is very good): [http://www.regular-expressions.info](http://www.regular-expressions.info)
 
-
+Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars) 
 
  
