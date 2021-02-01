@@ -148,5 +148,5 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 - **Awk** (Programming language designed for text processing)
 > `awk -F "<delimiter>" '{print $<number of seperated item>}'`
 
-> `awk -F "<delimiter>" '{print "Your_text" $<field1> "Your_text" $<field2>}' - To add optional strings to the output
+> `awk -F "<delimiter>" '{print "Your_text" $<field1> "Your_text" $<field2>}'` - To add optional strings to the output
 
