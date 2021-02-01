@@ -64,6 +64,24 @@ Notes:
 Service names for SSH:`ssh` , HTTP:`apache2`
 Default index.html location: `/var/www/html`
 
+### 2.5 Extracting archives 
+> `tar xvfz <file>` - Extract tar file
+
+> `gunzip <file>` - Extract gz file
+
+### 2.6 Other useful commands
+> `cat <file> | wc -l` - Returns line count of a specific file 
+
+> `head <file>` - Returns first 10 lines in a file
+
+> `cat <file> | sort -u` - Show unique lines
+
+> `cat <file> | uniq -c` - Show the count of unique lines
+
+> `cat <file> | sort -urn` - Sort out unique lines in reverse order according to the numeric value
+
+>
+
 ## 3.0 Bash Environment
 When opening a new terminal window, a new Bash process, which has its own **Environment variables**, is initialized. One of the most commonly-referenced environment variable is **PATH (Colon seperated directory paths that bash will search through whenever a command is run without a full path.** 
 
@@ -111,7 +129,18 @@ Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars
 > `grep <regex>` - Use `-r` for recursive and `-i` for case ignorance.
 
 - **Sed** (Powerful text stream editor)
-> `sed`
+> `sed '' <file>` - Prints lines automatically
+
+> `sed -n 'p' <file>` - Suppresses the automatic printing functionality and print manually
+
+> `sed -n '1p' <file>` - Print first line only 
+
+> `sed -n '1,5p' <file>` - Print the first 5 lines
+
+> `sed 's/old-word/new-word/' - Replace the old word with the new word (You can substitute the delimiter in front of the `s`)
+
+Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
+
 
 - **Cut** (Used to extract a section from a line - But only support single character delimiter)
 > `cut -f <field_number> -d "<delimiter used to seperate fields>"`
@@ -119,4 +148,5 @@ Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars
 - **Awk** (Programming language designed for text processing)
 > `awk -F "<delimiter>" '{print $<number of seperated item>}'`
 
+> `awk -F "<delimiter>" '{print "Your_text" $<field1> "Your_text" $<field2>}' - To add optional strings to the output
 
