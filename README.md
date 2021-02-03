@@ -82,6 +82,11 @@ Default index.html location: `/var/www/html`
 
 >
 
+### 2.7 Other useful locations and files in linux
+> `/etc/os-release` - OS Release information
+
+>
+
 ## 3.0 Bash Environment
 When opening a new terminal window, a new Bash process, which has its own **Environment variables**, is initialized. One of the most commonly-referenced environment variable is **PATH (Colon seperated directory paths that bash will search through whenever a command is run without a full path.** 
 
