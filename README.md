@@ -80,7 +80,9 @@ Default index.html location: `/var/www/html`
 
 > `cat <file> | sort -urn` - Sort out unique lines in reverse order according to the numeric value
 
->
+> `uname -a` - Linux version
+
+> 
 
 ### 2.7 Other useful locations and files in linux
 > `/etc/os-release` - OS Release information
