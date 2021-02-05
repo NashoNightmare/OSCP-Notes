@@ -131,7 +131,7 @@ Reference(NB:This resource is very good): [http://www.regular-expressions.info](
 
 Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars) 
 
-### Text-Fu - Tools
+### 3.4 Text-Fu - Tools
 - **Grep** (Searches text files for the occurence given regex and outputs any line containing a match to stdout)
 > `grep <regex>` - Use `-r` for recursive and `-i` for case ignorance.
 
@@ -157,3 +157,12 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 
 > `awk -F "<delimiter>" '{print "Your_text" $<field1> "Your_text" $<field2>}'` - To add optional strings to the output
 
+### 3.5 Diffing
+
+> `comm file1 file2` - Outputs 3 columns (1-lines unique to file1, 2-lines unique to file2, 3-lines common in both files
+
+> `diff -c file1 file2` - Another tool to find the differences in two files.
+
+> `vimdiff file1 file2` - More visual aided tool.
+
+>
