@@ -167,19 +167,21 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 
 ### Managing Processes
 - **Processes**
-The kernel maintain information about each process to help keep things organized, and each process is assigned a number called **Process ID (PID)**
 
-Foreground Processes(interactive processes) - These are initialized and controlled though a terminal session. There has to be a user connected to the system to start such processes. They haven't started automatically as a part of system functions/services.
+	> The kernel maintain information about each process to help keep things organized, and each process is assigned a number called **Process ID (PID)**
 
-Background Processes(automatic processes) - are processes not connected to a terminal. They don't expect any user input.
+	> Foreground Processes(interactive processes) - These are initialized and controlled though a terminal session. There has to be a user connected to the system to start such processes. They haven't started automatically as a part of system functions/services.
 
-Daemons - These are special types of background processes that start at system startup and keep ruinning forever as a service. They don't die. Started as a system tasks. They can controlled by a user via the init process.
+	> Background Processes(automatic processes) - are processes not connected to a terminal. They don't expect any user input.
+
+	> Daemons - These are special types of background processes that start at system startup and keep ruinning forever as a service. They don't die. Started as a system tasks. They can controlled by a user via the init process.
 
 
 
 For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kernel#linux-process-creation).
 
 - **Jobs**
-The linux shell also introduces the concept of **Jobs** to ease the user's workflow during the terminal session. A combination of processes (Such a composite command) is considered as a job in linux.
+
+	The linux shell also introduces the concept of **Jobs** to ease the user's workflow during the terminal session. A combination of processes (Such a composite command) is considered as a job in linux.
 
 
