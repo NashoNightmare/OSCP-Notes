@@ -33,11 +33,9 @@ Man pages contain not only information about user commands, but also documentati
 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/sections-man.png)
 
-To perform a keyword search.
-> man -k passwd
+> `man -k passwd` - To perform a keyword search.
 
-Another way to perform keyword searches through the man pages.
-> apropos partition 
+> `apropos partition` - Another way to perform a keyword search through the man pages.
 
 ### 2.3 Locating files 
 > `locate <file_name or directory>` - Quickest way to find files.
@@ -166,3 +164,22 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 > `vimdiff file1 file2` - More visual aided tool.
 
 >
+
+### Managing Processes
+- **Processes**
+The kernel maintain information about each process to help keep things organized, and each process is assigned a number called **Process ID (PID)**
+
+Foreground Processes(interactive processes) - These are initialized and controlled though a terminal session. There has to be a user connected to the system to start such processes. They haven't started automatically as a part of system functions/services.
+
+Background Processes(automatic processes) - are processes not connected to a terminal. They don't expect any user input.
+
+Daemons - These are special types of background processes that start at system startup and keep ruinning forever as a service. They don't die. Started as a system tasks. They can controlled by a user via the init process.
+
+
+
+For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kernel#linux-process-creation).
+
+- **Jobs**
+The linux shell also introduces the concept of **Jobs** to ease the user's workflow during the terminal session. A combination of processes (Such a composite command) is considered as a job in linux.
+
+
