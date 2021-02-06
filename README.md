@@ -48,6 +48,10 @@ Man pages contain not only information about user commands, but also documentati
 
 > `find / -name <file> -type f` - File search
 
+> `find / -mtime +n` - Finds the files and directories modified more than n days ago.
+
+> `find / -mtime -n` - Finds the files and directories modified less than n days ago. (Use `-mmin [+,-]n` for Minutes instead of days. 
+
 ### 2.4 Linux Services
 Start/Stop a Service
 > `$ sudo systemctl start/stop/enable/disable <service_name>` or `$ sudo service <service_name> start/stop`
@@ -165,7 +169,7 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 
 >
 
-### Managing Processes
+### 3.6 Managing Processes
 - **Processes**
 
 	> The kernel maintain information about each process to help keep things organized, and each process is assigned a number called **Process ID (PID)**
@@ -188,12 +192,36 @@ For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kerne
 
 		> `<command> &` - append '&' to run the command in background.
 		
-		> We could suspend a job by `Ctrl + Z`. Resume it in the background by using the `bg` command.
+		> We could suspend a job by `Ctrl + Z`. Resume it in the background by using the `bg %<job_number>` command.
 
 	- **Foreground Jobs (`fg` and `jobs`)**	
 
 		> `jobs` - Returns the jobs that are running in the current shell.
 
-		> `fg` - To bring back last stopped job to foreground. or `fg %<process_number>` to bring back specified process to the foreground(Stopped or background running).
+		> `fg` - To bring back last stopped job to foreground. or `fg %<job_number>` to bring back specified process to the foreground(Stopped or background running).
+
+- **Process Control**
+	
+	- **PS Command(The swiss army knife of Process Management)**
+
+		> `ps -ef` - To see every processes system now runs. (`-e` - Every process , `-f` - Display full format)
+
+		> `ps -fC <command_name>` - Select by command.
+
+		> `kill <PID>` - Kill the process by process ID.
+
+### 3.7 File and Command Monitoring
+
+Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-other-useful-commands) to more commands.
+
+- **Tail**
+	
+	> `tail -f <file_name>` - Live monitoring of a file that updates continuously.
+	
+	> `tail -n<number_of_lines> <file_name>' - Last desired number of lines of a file.
+
+- **Watch**
+	
+	> `watch -n <interval_time_in_sec> w` - Listing logged-in users once every 5 seconds.
 
 
