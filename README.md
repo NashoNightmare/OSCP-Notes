@@ -218,7 +218,7 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 	
 	> `tail -f <file_name>` - Live monitoring of a file that updates continuously.
 	
-	> `tail -n<number_of_lines> <file_name>' - Last desired number of lines of a file.
+	> `tail -n<number_of_lines> <file_name>` - Last desired number of lines of a file.
 
 - **Watch**
 	
