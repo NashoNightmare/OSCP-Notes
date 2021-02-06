@@ -222,6 +222,32 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 
 - **Watch**
 	
-	> `watch -n <interval_time_in_sec> w` - Listing logged-in users once every 5 seconds.
+	> `watch -n <interval_time_in_sec> "<command>"` - Runs a command after specified interval and updates the terminal.
+
+### 3.8 Downloading Files
+
+- **Wget**
+
+	> `wget -O <specified_name_to_be_saved> <url_for_the_file>` - Downloads files using HTTP/HTTPS/FTP protocol.
+
+- **Curl**
+
+	Used to transfer data to or from a server using a host of protocols including IMAP/S, POP3/S, SCP, SFTP, SMB/S, SMTP/S, TELNET,TFTP, and others. Can use this to download or upload files and build complex requests.
+
+	For man pages : [Curl](https://curl.se/docs/manpage.html)
+
+	> `curl -o <save_as> <url_to_the_file>` - Equivalent to the wget command.
+
+	> You can specify multiple URLs or parts of URLs by writing part sets within braces and quoting the URL as in: `http://site.{one,two,three}.com`
+
+	> You can get sequences of alphanumeric series by using [] as in : `ftp://ftp.example.com/file[1-100].txt`, `ftp://ftp.example.com/file[a-z].txt`, `ftp://ftp.example.com/file[001-100].txt`(Leading zeros)
+
+	> `curl -X <request> <url>` - Make requests for specified url.
+
+- **Axel**
+
+	Download accelerator that transfers a file from a FTP or HTTP server through multiple connections. This tool has a vast array of features, but the most common is -n, which is used to specify the number of multiple connections to use. 
+
+	> `axel -a -n 20 -o <save_as> <url_to_the_file>` - `-a` for more concise progress indicator, `-n` for number of multiple connections to use. 
 
 
