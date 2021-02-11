@@ -258,8 +258,8 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 Banner refers to a text message received from the host, usually, it includes information about the open prots and services with their version numbers.
 	
 - Types of Banner Grabbing
-	1 Active Banner Grabbing
-	2 Passive Banner Grabbing
+	- Active Banner Grabbing
+	- Passive Banner Grabbing
 
 - Banner Grabbing Tools
 	> `whatweb`, `cURL`, `wget`, `telnet`, `Nikto`, `Nmap`, `Dmitry`, `BurpSuite`, `Netcraft`, `ID Serve`, `Wappalyzer(Browser Extension)`, `HTTP Header Live(Browser Extension)`
@@ -269,9 +269,9 @@ Banner refers to a text message received from the host, usually, it includes inf
 Utility that reads and writes data across network connections, using TCP or UDP protocols.
 
 - Client mode 
-	1 Check if a port is open or closed.
-	2 Read a [banner](https://github.com/NashoNightmare/OSCP-Notes#banners-aka-service-fingerprinting) from the service listening on a port.
-	3 Connect to a network service manually.
+	- Check if a port is open or closed.
+	- Read a [banner](https://github.com/NashoNightmare/OSCP-Notes#banners-aka-service-fingerprinting) from the service listening on a port.
+	- Connect to a network service manually.
 	
 	> `nc -nv <ip_address> <port>` - `-n`:Skip DNS name resolution, `-v`:Add some verbosity.
 
