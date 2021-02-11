@@ -254,7 +254,7 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 
 ### Extra tutorials - Helps reading this chapter.
 
-#### Banners (AKA Service Fingerprinting)
+#### 4.(SpecialSection) Banners (AKA Service Fingerprinting)
 Banner refers to a text message received from the host, usually, it includes information about the open prots and services with their version numbers.
 	
 - Types of Banner Grabbing
