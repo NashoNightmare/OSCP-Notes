@@ -255,7 +255,7 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 ### Extra tutorials - Helps reading this chapter.
 
 #### Banners (AKA Service Fingerprinting)
-	Banner refers to a text message received from the host, usually, it includes information about the open prots and services with their version numbers.
+Banner refers to a text message received from the host, usually, it includes information about the open prots and services with their version numbers.
 	
 	- Types of Banner Grabbing
 		1. Active Banner Grabbing
@@ -266,9 +266,13 @@ Please refer to [Section 2.6](https://github.com/NashoNightmare/OSCP-Notes#26-ot
 
 ### NetCat
 
-	Utility that reads and writes data across network connections, using TCP or UDP protocols.
+Utility that reads and writes data across network connections, using TCP or UDP protocols.
 
-	- Client mode 
-		1. Check if a port is open or closed.
-		2. Read a [banner]() from the service listening on a port.
-		3. Connect to a network service manually.
+- Client mode 
+	1. Check if a port is open or closed.
+	2. Read a [banner](https://github.com/NashoNightmare/OSCP-Notes#banners-aka-service-fingerprinting) from the service listening on a port.
+	3. Connect to a network service manually.
+	
+	> `nc -nv <ip_address> <port>` - `-n`:Skip DNS name resolution, `-v`:Add some verbosity.
+
+	-
