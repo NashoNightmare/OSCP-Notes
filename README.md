@@ -310,8 +310,8 @@ Layer 4 - **Transport** (End to End Connections) (Datagrams or Segments)
 		
 	
 	- TCP (Transmission Control Protocol)
-		- Uses [3-way handshake](https://github.com/NashoNightmare/Advent-Of-Cyber#three-way-handshake-building-a-stable-connection-over-tcp) for connection reliability.
 		- If packet missing it will be re transmitted.		
+		- Uses 3-way handshake.
 
 	- UDP (User Datagram Protocol)
 		- Does not provide reliability.
@@ -333,7 +333,8 @@ Layer 2 - **Data Link** (Physical Addressing and Access to Media) (Frames)
 Layer 1 - **Physical** (Binary Transmission)(Bits)
 	
 	- What state represents 0 or 1.
-	- Defines electrical, mechanical, procedural and functional specifications for activating maintaining and deactivating the physical link.
+	- Defines electrical, mechanical, procedural and functional specifications for activating maintaining
+and deactivating the physical link.
 	- Focused with physical devices and physical cabling.
 	- Medium,
 
