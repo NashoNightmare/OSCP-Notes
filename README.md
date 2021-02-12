@@ -88,7 +88,7 @@ Default index.html location: `/var/www/html`
 
 > `uname -a` - Linux version
 
-> 
+> `host <url>` - Shows the corresponding IP address for a specific url. 
 
 ### 2.7 Other useful locations and files in linux
 > `/etc/os-release` - OS Release information
