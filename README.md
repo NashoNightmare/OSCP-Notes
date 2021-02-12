@@ -13,6 +13,7 @@
 
 [![alt text](https://img.shields.io/badge/4.0-Practical%20Tools-red)](https://github.com/NashoNightmare/OSCP-Notes#40-practical-tools) [![alt text](https://img.shields.io/badge/Banners-Banner%20Grabbing-blueviolet)](https://github.com/NashoNightmare/OSCP-Notes#401-banners-aka-service-fingerprinting) [![alt text](https://img.shields.io/badge/OSI-OSI%20Model%20Quick%20ref-blueviolet)](https://github.com/NashoNightmare/OSCP-Notes#402-osi-layer-model)
 
+[![alt text](https://img.shields.io/badge/5.0-Bash%20Scripting-red)](https://github.com/NashoNightmare/OSCP-Notes#50-bash-scripting)
 
 ## 0.0 Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
