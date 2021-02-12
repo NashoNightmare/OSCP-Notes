@@ -414,24 +414,21 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 
 **Loops**
 1. For loop
-
+		_______________________________________
 		for <var_name> in <list>
 		do 
 			<action_to_perform>
 		done
-
-...
-
+		_______________________________________
 		for <var_name> in $(seq 1 10)
 		do
 			<action_to_perform>
 		done
-
-...
-
+		_______________________________________
 		for <var_name> in {1..10}
 		do 
 			<action_to_perform>
 		done
+		_______________________________________
 
 2. While loop			
