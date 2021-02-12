@@ -377,15 +377,15 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 
 ## 5.0 Bash Scripting
 
-> **Shebang** : `#!/bin/bash`, `#!/bin/bash -x` : `-x` flag for additional debug output -  This is what makes this a “Bash script” as opposed to another type of shell script, like a “C Shell script”.
+**Shebang** : `#!/bin/bash`, `#!/bin/bash -x` : `-x` flag for additional debug output -  This is what makes this a “Bash script” as opposed to another type of shell script, like a “C Shell script”.
 
-> **Initializing Variables** : `variable_name="Variable_Content"` 
+**Initializing Variables** : `variable_name="Variable_Content"` 
 
-> **Referring Variables** : `echo "Your variable is $variable_name"` , `echo $variable_name` , `variable_name2="Variable 1 $variable_name"`
+**Referring Variables** : `echo "Your variable is $variable_name"` , `echo $variable_name` , `variable_name2="Variable 1 $variable_name"`
 
-> **Command substituition(Assign the output of a program to a variable)** : `variable_name=$(command)`
+**Command substituition(Assign the output of a program to a variable)** : `variable_name=$(command)`
 
-> **Arguments** : `echo "The first two arguments are $1 and $2"`- The first 9 arguments to the Bash script can be $1 to $9.
+**Arguments** : `echo "The first two arguments are $1 and $2"`- The first 9 arguments to the Bash script can be $1 to $9.
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/special_bash_variables.png)
 
-
+**Reading User Input**
