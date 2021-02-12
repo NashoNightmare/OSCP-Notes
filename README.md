@@ -385,7 +385,7 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 
 > **Command substituition(Assign the output of a program to a variable)** : `variable_name=$(command)`
 
-> **Arguments** :
+> **Arguments** : `echo "The first two arguments are $1 and $2"`- The first 9 arguments to the Bash script can be $1 to $9.
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/special_bash_variables.png)
 
 
