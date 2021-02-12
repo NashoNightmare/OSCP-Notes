@@ -469,6 +469,7 @@ To use the function : `function_name
 We can pass the arguments to the function by using same procedure we done for the bash programs. Literally the function in a bash program is a program-in-a-program
 
 Example : 
+
 		function function_one {
 			echo "Hello $1"
 		}
