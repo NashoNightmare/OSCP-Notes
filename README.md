@@ -383,6 +383,8 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 
 > Referring Variables : `echo "Your variable is $variable_name"` , `echo $variable_name` , `variable_name2="Variable 1 $variable_name"`
 
-> Command substituition(Assign the output of a program to a variable) : `variable_name=$(command)` , `variable_name=/`command/``
+> Command substituition(Assign the output of a program to a variable) : `variable_name=$(command)`
+
+> Arguments : ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/special_bash_variables.png)
 
 
