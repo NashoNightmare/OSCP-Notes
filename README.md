@@ -265,7 +265,8 @@ Banner refers to a text message received from the host, usually, it includes inf
 	> `whatweb`, `cURL`, `wget`, `telnet`, `Nikto`, `Nmap`, `Dmitry`, `BurpSuite`, `Netcraft`, `ID Serve`, `Wappalyzer(Browser Extension)`, `HTTP Header Live(Browser Extension)`
 
 #### OSI Layer Model
-- Developer Concentration Section
+**Developer Concentration Section**
+
 Layer 7 - **Application**(FTP, Telnet, HTTP, SSH, IMAP, POP3, SMTP)
 	- Provides access for users.
 	- Provides network services to application processes.
