@@ -388,4 +388,16 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 **Arguments** : `echo "The first two arguments are $1 and $2"`- The first 9 arguments to the Bash script can be $1 to $9.
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/special_bash_variables.png)
 
-**Reading User Input**
+**Reading User Input** : `read variable_name` , To refer the user input `echo "The user input is $variable_name"`
+
+**Conditional Statements**
+	
+	If [<some_test>]
+	then
+		<perform_an_action>
+	elif [<some_test>]
+	then
+		<perform_different_action>
+	else
+		<perform_yet_another_different_action>
+	fi
