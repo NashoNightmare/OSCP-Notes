@@ -346,7 +346,7 @@ Utility that reads and writes data across network connections, using TCP or UDP 
 
 - Client mode 
 	- Check if a port is open or closed.
-	- Read a [banner](https://github.com/NashoNightmare/OSCP-Notes#banners-aka-service-fingerprinting) from the service listening on a port.
+	- Read a banner from the service listening on a port.
 	- Connect to a network service manually.
 	
 	> `nc -nv <ip_address> <port>` - `-n`:Skip DNS name resolution, `-v`:Add some verbosity.
