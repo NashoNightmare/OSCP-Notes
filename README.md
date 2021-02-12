@@ -268,12 +268,14 @@ Banner refers to a text message received from the host, usually, it includes inf
 **Developer Concentration Section**
 
 Layer 7 - **Application**(FTP, Telnet, HTTP, SSH, IMAP, POP3, SMTP)
+
 	- Provides access for users.
 	- Provides network services to application processes.
 	- Identify communication partners.
 	- Provides user authentication.
 
 Layer 6 - **Presentation** (Data Representation/ Syntax)
+
 	- Ensures that data is readable by receiving system.
 	- Formats data to be presented to application layer.
 	- Structures data.
@@ -281,15 +283,20 @@ Layer 6 - **Presentation** (Data Representation/ Syntax)
 	- Provides encryption.
 
 Layer 5 - **Session** (Interhost communication)
+
 	- Establishment maintenance and termination of sessions between applications.
 	- Maintains security / name recognition / logging.
 	- Two application processes on different machines can establish a session.
+
 	Example: 
+
 		- NetBIOS (Network Basic Inpt/Output System)
 		- PPTP (Point to point tunneling protocol)
 
-- Network Engineer Concentration Section
+**Network Engineer Concentration Section**
+
 Layer 4 - **Transport** (End to End Connections)
+	
 	-
 	
 
