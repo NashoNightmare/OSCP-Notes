@@ -420,13 +420,13 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 			<action_to_perform>
 		done
 
-
+...
 		for <var_name> in $(seq 1 10)
 		do
 			<action_to_perform>
 		done
 
-
+...
 		for <var_name> in {1..10}
 		do 
 			<action_to_perform>
