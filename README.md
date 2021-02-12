@@ -125,7 +125,7 @@ A pattern which describes a certain amount of text.
 - **Character classes**
 	> `[ ]` - To define a character class (Matches only for one character by default, Use quantifier for more options)
 
-	> `[^]` - Negated character class
+	> `[^/]` - Negated character class(In this given example it excludes '/' character.
 
 	Only `]`  `\` `^` are metacharacters in a character class. To match these use backslash.
 
@@ -140,6 +140,8 @@ Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars
 ### 3.4 Text-Fu - Tools
 - **Grep** (Searches text files for the occurence given regex and outputs any line containing a match to stdout)
 > `grep <regex>` - Use `-r` for recursive and `-i` for case ignorance.
+
+> `grep -o <regex>` - Use `-o` for output the only matching text.
 
 - **Sed** (Powerful text stream editor)
 > `sed '' <file>` - Prints lines automatically
