@@ -433,3 +433,39 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 		_______________________________________
 
 2. While loop			
+
+		_______________________________________
+		counter=1
+		while [	$counter -lt 10 ]
+		do
+			<action_to_perform>
+		done
+		_______________________________________
+		while [ $counter -le 10 ]
+		do
+			<action_to_perform>
+		done
+		_______________________________________
+		while [ $counter -gt 10 ]
+		do
+			<action_to_perform>
+		done
+		_______________________________________
+		while [ $counter -ge 10 ]
+		do
+			<action_to_perform>
+		done
+		_______________________________________
+
+**Functions**
+
+		_______________________________________
+		function function_name {
+		<commands>
+		}
+		_______________________________________
+		function_name(){
+		<commands>
+		}
+		_______________________________________
+To use the function : `function_name`
