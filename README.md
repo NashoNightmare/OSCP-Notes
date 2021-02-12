@@ -476,4 +476,12 @@ Example :
 
 		function_one 20
 
+To declare local variables : Use `local` keyword to define a local variable.
+		
+		_______________________________________
+		function_name(){
+			local_variable = "content"
+		}
+		_______________________________________
+
 
