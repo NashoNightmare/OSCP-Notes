@@ -460,12 +460,19 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 **Functions**
 
 		_______________________________________
-		function function_name {
-		<commands>
-		}
-		_______________________________________
 		function_name(){
 		<commands>
 		}
 		_______________________________________
-To use the function : `function_name`
+To use the function : `function_name
+
+We can pass the arguments to the function by using same procedure we done for the bash programs. Literally the function in a bash program is a program-in-a-program
+
+Example : 
+		function function_one {
+			echo "Hello $1"
+		}
+
+		function_one 20
+
+
