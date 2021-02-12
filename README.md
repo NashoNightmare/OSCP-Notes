@@ -403,3 +403,30 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 	fi
 
 ![alt txt](https://github.com/NashoNightmare/OSCP-Notes/blob/master/common_test_command_operators.png)
+
+**Boolean Logic Operators**
+1. Using Boolean Operators in non-conditional statements : 
+	
+	- `command1 && command2` - Command 2 executes if command 1 succeeds(Exit Status 0).
+	- `command1 || command2` - Command 2 executes if command 1 fails(Any exit Status except 0).
+
+2. Using Boolean Operators in conditional statements : The same functionality of Boolean operators on C program conditional statements occurs herea as well.
+
+**Loops**
+1. For loop
+		for <var_name> in <list>
+		do 
+			<action_to_perform>
+		done
+
+		for <var_name> in $(seq 1 10)
+		do
+			<action_to_perform>
+		done
+
+		for <var_name> in {1..10}
+		do 
+			<action_to_perform>
+		done
+
+2. While loop			
