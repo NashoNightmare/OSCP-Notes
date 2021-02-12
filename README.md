@@ -390,7 +390,7 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 
 **Reading User Input** : `read variable_name` , To refer the user input `echo "The user input is $variable_name"`
 
-**Conditional Statements**
+**Conditional Statements** :
 	
 	If [<some_test>]
 	then
@@ -401,3 +401,5 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 	else
 		<perform_yet_another_different_action>
 	fi
+
+![alt txt](https://github.com/NashoNightmare/OSCP-Notes/blob/master/common_test_command_operators.png)
