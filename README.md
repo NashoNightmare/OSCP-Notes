@@ -377,10 +377,12 @@ Wireshark uses Libpcap101 (on Linux) or Winpcap102 (on Windows) libraries in ord
 
 ## 5.0 Bash Scripting
 
-> Shebang : `#!/bin/bash` -  This is what makes this a “Bash script” as opposed to another type of shell script, like a “C Shell script”.
+> Shebang : `#!/bin/bash`, `#!/bin/bash -x` : `-x` flag for additional debug output -  This is what makes this a “Bash script” as opposed to another type of shell script, like a “C Shell script”.
 
 > Initializing Variables : `variable_name="Variable_Content"` 
 
 > Referring Variables : `echo "Your variable is $variable_name"` , `echo $variable_name` , `variable_name2="Variable 1 $variable_name"`
 
 > Command substituition(Assign the output of a program to a variable) : `variable_name=$(command)` , `variable_name=\`command\``
+
+
