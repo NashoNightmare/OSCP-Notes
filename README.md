@@ -152,7 +152,7 @@ Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars
 
 > `sed -n '1,5p' <file>` - Print the first 5 lines
 
-> `sed 's/old-word/new-word/' - Replace the old word with the new word (You can substitute the delimiter in front of the `s`)
+> `sed 's/old-word/new-word/'` - Replace the old word with the new word (You can substitute the delimiter in front of the `s`)
 
 Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
 
