@@ -487,3 +487,7 @@ To declare local variables : Use `local` keyword to define a local variable.
 		_______________________________________
 
 
+## 6.0 Passive Information Gathering.
+
+**The five phases of hacking**
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/five-phases.png)
