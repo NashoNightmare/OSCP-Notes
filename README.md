@@ -544,4 +544,10 @@ Loading and executing modules
 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng2.png)
 
+To view stored data
+
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng3.png)
+
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng4.png)
+
 
