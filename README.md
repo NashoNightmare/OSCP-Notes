@@ -532,7 +532,7 @@ Recon-ng is a module based framework for web-based information gathering. Recon-
 
 `recon-ng`
 
-Creating Workspace
+Creating Workspace - Very useful when inheriting different module results.
 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng0.png)
 
@@ -550,4 +550,39 @@ To view stored data
 
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng4.png)
 
+### 6.6 Open Source Code
+Looking up for the openly available source codes in specific companies. 
+
+- GitHub
+- GitLab
+- SourceForge
+
+### 6.7 Shodan
+Is a search engine that crawls devices connected to internet including but not limited to the World Wide Web. This includes the servers that run websites but also devices like routers and IoT devices.
+
+Link : [www.shodan.io](https://www.shodan.io/)
+
+### 6.8 Security Header Scanner
+There are several other specialty websites that we can use to gather information about a website or domain’s security posture. Some of these sites blur the line between passive and active information gathering, but the key point for our purposes is that a third-party is initiating any scans or checks.
+
+Link : [https://securityheaders.com/](https://securityheaders.com/)
+
+### 6.9 SSL Server Test
+This tool analyzes a server’s SSL/TLS configuration and compares it against current best practices.
+
+Link : [https://www.ssllabs.com/ssltest/](https://www.ssllabs.com/ssltest/)
+
+### 6.10 Pastebin
+A pastebin or text storage site is a type of online content hosting service where users can store plain text, e.g. to source code snippets for code review.
+
+Link : [https://pastebin.com/](https://pastebin.com/)
+
+### 6.11 Email Harvesting
+Gathers emails, names, subdomains, IPs, and URLs from multiple public data sources.
+
+> `theHarvester -d <domain> -b google` - `-d`:Domain, `-b`:Data source to search
+
+### 6.12 Social Searcher
+
+Link : [https://www.social-searcher.com/](https://www.social-searcher.com/)
 
