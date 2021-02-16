@@ -523,4 +523,25 @@ The GHDB (Google Hacking Databse) contains multitudes of creative searches that 
 
 Link (GHDB) :- [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
 
+### 6.4 Netcraft
+Offers site reports.
+Link : [https://searchdns.netcraft.com/](https://searchdns.netcraft.com/)
+
+### 6.5 Recon-ng
+Recon-ng is a module based framework for web-based information gathering. Recon-ng displays the results of a module to the terminal but it also stores them in databse.
+
+`recon-ng`
+
+Creating Workspace
+
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng0.png)
+
+Searching and installing modules
+
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng1.png)
+
+Loading and executing modules
+
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/recon-ng2.png)
+
 
