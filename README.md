@@ -493,6 +493,7 @@ To declare local variables : Use `local` keyword to define a local variable.
 We could stage out the five phases of hacking as defined in the image below. The first step of the phases is Passive Information Gathereing. AKA OSINT (Open Source Intelligence). And we should maintain high level of secrecy about our actions and intentions.
 
 Passive Information Gathering is the process of collecting openly available information about the target, Generally without any direct interaction with the target.
+
 **The five phases of hacking**
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/five-phases.png)
 
@@ -510,4 +511,16 @@ Database tool that can provide information about a domain name, such as the name
 > `whois <domain_name>`
 
 ### 6.4 Google Hacking
+> `site:<example.com>` - Shows only the results from the address. Also shows subdomains and pages.
+
+> `site:<example.com> filetype:<file_type>` - Shows the results only corresponding to the file type and website.
+
+> `site:<example.com> -filetype:<file_type>` - Shows the results only corresponding to the website while excluding corresponding filetype.
+
+> `intitle:"<title>" "words"` - To find pages that contain "title" in the title and the words "words". Most useful instance is word "parent directory".
+
+The GHDB (Google Hacking Databse) contains multitudes of creative searches that demonstrate the power of creative searching with combined operators.
+
+Link (GHDB) :- [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
+
 
