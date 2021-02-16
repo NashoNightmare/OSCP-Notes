@@ -586,3 +586,13 @@ Gathers emails, names, subdomains, IPs, and URLs from multiple public data sourc
 
 Link : [https://www.social-searcher.com/](https://www.social-searcher.com/)
 
+### 6.13 Use Forums
+We can use forums and developer bases like Quora, StackOverFlow, Dev.to to tackle down employees by Social engineering them.
+
+### 6.14 Information Gathering Frameworks
+- OSINT Framework - Online available well-ordered OSINT tools and resources collection.
+	Link : [https://osintframework.com/](https://osintframework.com/)
+- Maltego - Combination of searching tools and strategies.
+	Available with kali linux and freely available community edition that needs registration.
+
+
