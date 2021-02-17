@@ -97,6 +97,24 @@ Default index.html location: `/var/www/html`
 
 >
 
+### 2.8 Linux Variables
+- Shell Variables (Variables which are only in scope of the shell)
+	> `set` Command will show the all variables in the shell.
+	
+	> `set | grep <variable_name>` To see the specific variable
+
+- Environment Variables (Variables which are available for system-wide)
+	> `env` Command will show the all variables which are available system-wide.
+
+	> `env | grep <variable_name>` Will return the specific variable name with its value.
+
+- **export** command
+	We can use export command to export a variable to system-wide scope (Environment Variable) and also available for shell (Shell Variable). Good resource to understand export lot more way better:
+
+	![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/export0.png)
+	
+	![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/export1.png)
+
 ## 3.0 Bash Environment
 When opening a new terminal window, a new Bash process, which has its own **Environment variables**, is initialized. One of the most commonly-referenced environment variable is **PATH (Colon seperated directory paths that bash will search through whenever a command is run without a full path.** 
 
@@ -156,6 +174,8 @@ Reference: [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html#chars
 
 > `sed 's/old-word/new-word/'` - Replace the old word with the new word (You can substitute the delimiter in front of the `s`)
 
+> `sed 's/,$//'` - Replace the ending character only with a newline.
+
 Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
 
 
@@ -166,6 +186,9 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 > `awk -F "<delimiter>" '{print $<number of seperated item>}'`
 
 > `awk -F "<delimiter>" '{print "Your_text" $<field1> "Your_text" $<field2>}'` - To add optional strings to the output
+
+- **Tr** (Used to translate characters into another, Lot more like sed)
+> `tr '<character_to_replace>` '<replace_with_this_character>'`
 
 ### 3.5 Diffing
 
