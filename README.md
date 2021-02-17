@@ -109,7 +109,13 @@ Default index.html location: `/var/www/html`
 	> `env | grep <variable_name>` Will return the specific variable name with its value.
 
 - **export** command
-	We can use export command to export a variable to system-wide scope (Environment Variable) and also available for shell (Shell Variable). Good resource to understand export lot more way better:
+	We can use export command to export a variable to system-wide scope (Environment Variable) and also available for shell (Shell Variable). 
+
+	Usage:
+
+	![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/export2.png)
+
+	Good resource to understand export lot more way better:
 
 	![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/export0.png)
 	
