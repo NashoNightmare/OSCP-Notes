@@ -115,7 +115,7 @@ Default index.html location: `/var/www/html`
 
 	![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/export2.png)
 
-	Good resource to understand export lot more way better:
+	**Good resource to understand export lot more way better** :
 
 	![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/export0.png)
 	
