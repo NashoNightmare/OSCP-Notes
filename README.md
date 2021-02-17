@@ -108,7 +108,8 @@ Default index.html location: `/var/www/html`
 
 	> `env | grep <variable_name>` Will return the specific variable name with its value.
 
-- **export** command
+- **Export** command
+	
 	We can use export command to export a variable to system-wide scope (Environment Variable) and also available for shell (Shell Variable). 
 
 	Usage:
