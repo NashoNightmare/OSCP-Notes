@@ -625,4 +625,12 @@ We can use forums and developer bases like Quora, StackOverFlow, Dev.to to tackl
 - Maltego - Combination of searching tools and strategies.
 	Available with kali linux and freely available community edition that needs registration.
 
+### 6.15 WiGLE (Wireless Geogrphic Logging Engine)
+WiGLE is a website for collecting information abou the different wireless hotspots around the world. Users can register on the website and upload hotspot data like GPS coordinates, SSID, MAC(BSSID) and the encryption type used on the hotspots discovered.
 
+Link : [https://wigle.net/](https://wigle.net/)
+
+### 6.15 Wayback Machine
+The Wayback Machine is a digital archive of the World Wide Web, founded by the Internet Archive, a nonprofit library based in San Francisco. It allows the user to go “back in time” and see what websites looked like in the past.
+
+Link: [https://archive.org/web/](https://archive.org/web/)
