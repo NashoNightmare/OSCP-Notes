@@ -224,18 +224,19 @@ For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kerne
 
 - **Jobs**
 
-The linux shell also introduces the concept of **Jobs** to ease the user's workflow during the terminal session. A combination of processes (Such a composite command) is considered as a job in linux.
+	- The linux shell also introduces the concept of **Jobs** to ease the user's workflow during the terminal session. A combination of processes (Such a composite command) is considered as a job in linux.
+	
 	- **Background Jobs (`bg`)**
 
-	> `<command> &` - append '&' to run the command in background.
+		> `<command> &` - append '&' to run the command in background.
 		
-	> We could suspend a job by `Ctrl + Z`. Resume it in the background by using the `bg %<job_number>` command.
+		> We could suspend a job by `Ctrl + Z`. Resume it in the background by using the `bg %<job_number>` command.
 
-- **Foreground Jobs (`fg` and `jobs`)**	
+	- **Foreground Jobs (`fg` and `jobs`)**	
 
-	> `jobs` - Returns the jobs that are running in the current shell.
+		> `jobs` - Returns the jobs that are running in the current shell.
 
-	> `fg` - To bring back last stopped job to foreground. or `fg %<job_number>` to bring back specified process to the foreground(Stopped or background running).
+		> `fg` - To bring back last stopped job to foreground. or `fg %<job_number>` to bring back specified process to the foreground(Stopped or background running).
 
 - **Process Control**
 	
