@@ -218,7 +218,7 @@ Reference : [Sed Tutorial](https://www.digitalocean.com/community/tutorials/the-
 
 	> Daemons - These are special types of background processes that start at system startup and keep ruinning forever as a service. They don't die. Started as a system tasks. They can controlled by a user via the init process.
 
-
+	> In the linux directory `/proc/` we could find out details about linux system kernel, processes and configuration parameters. It is not actually resides in hard drive that means that it exists only when the computer turned on and running which means exists in RAM.
 
 For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kernel#linux-process-creation).
 
@@ -247,6 +247,11 @@ For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kerne
 		> `ps -fC <command_name>` - Select by command.
 
 		> `kill <PID>` - Kill the process by process ID.
+		
+		> `ps aux` - `-a`: All tty with other users, `-u`: Show user id, `-x`: Processes without controlling ttys
+
+		> `pstree -aclp` : More detailed process display, Grab the process id from here and grep it from traditional `ps aux` for gather more details.
+			
 
 ### 3.7 File and Command Monitoring
 
