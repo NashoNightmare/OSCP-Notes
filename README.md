@@ -94,6 +94,8 @@ Default index.html location: `/var/www/html`
 
 > `host <url>` - Shows the corresponding IP address for a specific url. 
 
+> `ldd <binary_file>` - Returns which dynamic libraries used by the program.
+
 ### 2.7 Other useful locations and files in linux
 > `/etc/os-release` - OS Release information
 
