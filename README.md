@@ -225,8 +225,7 @@ For more indepth [linux processes](https://github.com/NashoNightmare/Linux-Kerne
 - **Jobs**
 
 The linux shell also introduces the concept of **Jobs** to ease the user's workflow during the terminal session. A combination of processes (Such a composite command) is considered as a job in linux.
-
-- **Background Jobs (`bg`)**
+	- **Background Jobs (`bg`)**
 
 	> `<command> &` - append '&' to run the command in background.
 		
