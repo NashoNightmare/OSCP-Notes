@@ -82,6 +82,8 @@ Default index.html location: `/var/www/html`
 
 > `head <file>` - Returns first 10 lines in a file
 
+> `less <file>` - Return file content in much easy to read view. Use `Shift+G` for go to the END
+
 > `cat <file> | sort -u` - Show unique lines
 
 > `cat <file> | uniq -c` - Show the count of unique lines
