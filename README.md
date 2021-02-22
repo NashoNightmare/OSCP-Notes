@@ -673,6 +673,8 @@ To demonstrate those types we could use `host <hostname>` command.
 
 - `host www.megacorpone.com` - forward lookup
 - `host -t <type> megacorpone.com` 
-- `host <ip_address>` - reverse lookup`
+- `host <ip_address>` - reverse lookup
+
+
 
 
