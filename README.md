@@ -654,12 +654,12 @@ Link: [https://archive.org/web/](https://archive.org/web/)
 ![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/dns_routine_map.jpg)
 
 #### 7.0.1 DNS Record format
-- **<name>** : The forst field contains the domain name.
-- **<ttl>** : Time to live specifies how long the information is guaranteed to be valid.
-- **<class>** : The class field specifies the type of network
-- **<type>** : The DNS record type (MX,A,NS, etc..)
-- **<priority>** : The smaller the value, the higher the server's priority.
-- **<rdata>** : Resource data defines the mail server name.
+	<name> : The forst field contains the domain name.
+	<ttl> : Time to live specifies how long the information is guaranteed to be valid.
+	<class> : The class field specifies the type of network
+	<type> : The DNS record type (MX,A,NS, etc..)
+	<priority> : The smaller the value, the higher the server's priority.
+	<rdata> : Resource data defines the mail server name.
 
 #### 7.0.2 DNS Server record types
 - **NS** : Nameserver records contain the name of the authoritative servers which are hosting the DNS records for a domain.(Resides in TLD DNS Servers)
