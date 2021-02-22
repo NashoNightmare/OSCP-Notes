@@ -643,3 +643,5 @@ Link : [https://wigle.net/](https://wigle.net/)
 The Wayback Machine is a digital archive of the World Wide Web, founded by the Internet Archive, a nonprofit library based in San Francisco. It allows the user to go “back in time” and see what websites looked like in the past.
 
 Link: [https://archive.org/web/](https://archive.org/web/)
+
+## 7.0 Active Information Gathering
