@@ -17,6 +17,8 @@
 
 [![alt text](https://img.shields.io/badge/6.0-Passive%20Information%20Gathering-red)](https://github.com/NashoNightmare/OSCP-Notes#60-passive-information-gathering)
 
+[![alt text](https://img.shields.io/badge/7.0-Active%20Information%20Gathering-red)](https://github.com/NashoNightmare/OSCP-Notes#70-active-information-gathering)
+
 ## 0.0 Git commands cheatsheet for reference.
 > `git add .` - Stage all changed files, ready for commit.
 
@@ -645,3 +647,8 @@ The Wayback Machine is a digital archive of the World Wide Web, founded by the I
 Link: [https://archive.org/web/](https://archive.org/web/)
 
 ## 7.0 Active Information Gathering
+
+### 7.1 DNS Enumeration
+
+#### 7.0.0 DNS Query Procedure
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/dns_routine_map.jpg)
