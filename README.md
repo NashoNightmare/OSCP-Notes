@@ -651,7 +651,7 @@ Link: [https://archive.org/web/](https://archive.org/web/)
 ### 7.1 DNS Enumeration
 
 #### 7.0.0 DNS Query Procedure
-![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/dns_routine_map.jpg)
+![alt text](https://github.com/NashoNightmare/OSCP-Notes/blob/master/dns_routine_map.jpg.png)
 
 #### 7.0.1 DNS Record format
 	<name> : The forst field contains the domain name.
