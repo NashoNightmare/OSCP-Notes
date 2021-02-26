@@ -101,7 +101,7 @@ Default index.html location: `/var/www/html`
 ### 2.7 Other useful locations and files in linux
 > `/etc/os-release` - OS Release information
 
->
+> `/etc/hosts` - Hosts file maps domain names (hostnames) to IP address
 
 ### 2.8 Linux Variables
 - Shell Variables (Variables which are only in scope of the shell)
