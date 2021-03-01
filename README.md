@@ -646,6 +646,11 @@ The Wayback Machine is a digital archive of the World Wide Web, founded by the I
 
 Link: [https://archive.org/web/](https://archive.org/web/)
 
+### 6.16 IP Locator
+Helps to locate the geographical location of a given ip addresss.
+
+Link: [www.iplocation.net](https://www.iplocation.net)
+
 ## 7.0 Active Information Gathering
 
 ### 7.1 DNS Enumeration
